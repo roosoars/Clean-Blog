@@ -14,7 +14,7 @@ A small open-source project for a simple blog
 - [Why No Framework?](#why-no-framework)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
+- [Future Updates](#future-updates)
 
 ## Introduction
 
@@ -23,9 +23,12 @@ CleanBlog is a small open-source project for a simple blog, created from scratch
 ## Features
 
 - **Simple and clean design**
-- **Real-time database integration with Firebase**
+- **User authentication with Firebase**
+- **FireStore integration with Firebase**
+- **FireStorage integration with Firebase**
 - **Rich text editing with QuillJS**
-- **Responsive layout for mobile and desktop**
+- **Responsive layout for desktop**
+- **Tagging**
 - **No frameworks, just pure HTML, CSS, and JavaScript**
 
 ## Getting Started
@@ -117,4 +120,18 @@ Contributions are welcome! Follow these steps to contribute:
 
 ## License
 
-This project is licensed under the Apache License 2.0:
+This project is licensed under the Apache License 2.0
+
+## Future Updates
+
+We have exciting plans for future updates, including:
+
+
+- **Commenting system**: Enable readers to leave comments on blog posts.
+- **Search functionality**: Implement a search feature to find posts quickly.
+- **categories**: Organize posts by tags and categories for better navigation.
+- **Enhanced UI/UX and responsive layout for mobile**: Improve the design and user experience of the blog.
+
+- and much more.
+
+
