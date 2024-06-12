@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Administração do Blog</title>
+    <link rel="stylesheet" href="https://cdn.quilljs.com/1.3.6/quill.snow.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.snow.css"></script>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.bubble.css"></script>
+    <script src="https://cdn.jsdelivr.net/npm/quill-image-resize-module@3.0.0/image-resize.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-storage.js"></script>
+    <script src="assets/config/firebaseConfig.js"></script>
+    <script type="module" src="assets/js/main.js"></script>
+</head>
+<body>
+   <div class="container-admin">
+    <div class="admin-container">
+        <header class="admin-header">
+            <h1>Painel</h1>
+        </header>
+        <main class="admin-main">
+            <div id="editor-container" class="editor"></div>
+            <input type="text" id="post-title" class="input-field" placeholder="Título do Post">
+            <input type="text" id="post-tags" class="input-field" placeholder="Tags, separadas por vírgula">
+            <button class="publish-button" onclick="createPost()">Publicar Post</button>
+            <button class="logout-button" onclick="logout()">Logout</button>
+        </main>
+    </div>
+   </div>
+    <footer>
+        <div class="social-icons">
+            <a href="https://instagram.com/rodrri.soares/"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/roosoars"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/roosoars"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>Livre para uso e modificações desde que não remova os créditos.</p>
+        <p>Soars Inc © 2024</p>
+    </footer>
+</body>
+</html>
