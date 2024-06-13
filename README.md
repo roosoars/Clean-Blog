@@ -12,7 +12,6 @@ A small open-source project for a simple blog
   - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Why No Framework?](#why-no-framework)
-- [Contributing](#contributing)
 - [License](#license)
 - [Future Updates](#future-updates)
 
@@ -22,13 +21,15 @@ CleanBlog is a small open-source project for a simple blog, created from scratch
 
 ## Features
 
-- **Simple and clean design**
+**Admin Panel**
+- **Clean design**
+- **Search functionality**
+- **Tagging and Categories**
+- **Responsive layout for desktop**
+- **Rich text editing with QuillJS**
 - **User authentication with Firebase**
 - **FireStore integration with Firebase**
 - **FireStorage integration with Firebase**
-- **Rich text editing with QuillJS**
-- **Responsive layout for desktop**
-- **Tagging**
 - **No frameworks, just pure HTML, CSS, and JavaScript**
 
 ## Getting Started
@@ -93,31 +94,6 @@ In this project, we intentionally avoided using frameworks to:
 
 Many small projects use frameworks, which can obscure the underlying principles of web development. By sticking to plain HTML, CSS, and JavaScript, we retain the purity and simplicity of coding.
 
-## Contributing
-
-Contributions are welcome! Follow these steps to contribute:
-
-1. **Fork the repository**
-2. **Create a new branch:**
-
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-
-3. **Make your changes and commit them:**
-
-    ```bash
-    git commit -m 'Add some feature'
-    ```
-
-4. **Push to the branch:**
-
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-
-5. **Create a pull request**
-
 ## License
 
 This project is licensed under the Apache License 2.0
@@ -126,10 +102,6 @@ This project is licensed under the Apache License 2.0
 
 We have exciting plans for future updates, including:
 
-
-- **Commenting system**: Enable readers to leave comments on blog posts.
-- **Search functionality**: Implement a search feature to find posts quickly.
-- **categories**: Organize posts by tags and categories for better navigation.
 - **Enhanced UI/UX and responsive layout for mobile**: Improve the design and user experience of the blog.
 
 - and much more.
