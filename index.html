@@ -9,11 +9,17 @@
 <body>
     <div class="main-content">
         <div class="blog-container">
-            <h1>Blog</h1>
+            <div class="header">
+                <h1><a href="index.html">BLOG</a></h1>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Buscar por título ou tag...">
+                    <button id="search-button"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
             <div id="posts-container"></div>
             <div id="pagination-container" class="pagination">
-                <button id="prev-btn" onclick="prevPage()">Anterior</button>
-                <button id="next-btn" onclick="nextPage()">Próximo</button>
+                <button id="prev-btn">Anterior</button>
+                <button id="next-btn">Próximo</button>
             </div>
         </div>
     </div>
